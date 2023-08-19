@@ -1,4 +1,7 @@
-package dsa.map;
+package dsa.graph;
+
+import dsa.graph.Edge;
+import dsa.graph.Graph;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -12,7 +15,7 @@ import java.util.List;
  * @author kepler
  * @date 2023-08-16 17:27
  */
-public class UnweightedGraph<V> implements Graph<V>{
+public class UnweightedGraph<V> implements Graph<V> {
     //定义一个顶点的线性表
     protected List<V> vertices = new ArrayList<>(); // store vertices
     //定义一个顶点的邻接边线性表

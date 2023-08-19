@@ -1,4 +1,4 @@
-package dsa.map;
+package dsa.graph;
 
 /**
  * TODO

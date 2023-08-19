@@ -1,4 +1,4 @@
-package dsa.map;
+package dsa.graph;
 
 /**
  * TODO 使用邻接矩阵来表示图
